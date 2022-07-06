@@ -2,9 +2,9 @@ const jwt = require('jsonwebtoken');
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '7013bhuv@n755482',
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
   dateStrings: 'date',
   database: 'att',
 });

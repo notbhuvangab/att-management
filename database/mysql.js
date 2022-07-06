@@ -4,9 +4,9 @@ module.exports = class Mysql {
   static connect() {
     // establish connection
     const db = mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
-      password: '7013bhuv@n755482',
+      host: process.env.DB_HOST,
+      user: process.env.DB_USER,
+      password: process.env.DB_PASS,
       database: 'att',
     });
     // connect to database
