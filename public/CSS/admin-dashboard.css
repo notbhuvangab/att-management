@@ -1,7 +1,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #000000;
   min-width: 220px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -15,7 +15,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #f8be12;
 }
 
 .dropdown:hover .dropdown-content {
@@ -32,7 +32,7 @@
   display: none;
   position: absolute;
   bottom: 40px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   min-width: 220px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -46,7 +46,7 @@
 }
 
 .dropup-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #f8be12;
 }
 
 .dropup:hover .dropup-content {
