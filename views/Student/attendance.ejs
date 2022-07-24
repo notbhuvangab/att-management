@@ -50,7 +50,7 @@
                                                                     <%=monthDates[i][j].dayNumber%>
                                                                 </th>
                                                                 <% for (let k = 0; k < courseData.length; ++k) {%>
-                                                                <td><%= isPresent[i][j][k]==undefined?'-':isPresent[i][j][k].status%>
+                                                                <td><%= isPresent[i][j][k]==undefined?'-':(isPresent[i][j][k].status == 1?'Present':'Absent')%>
                                                                 </td>
                                                                 <%}%>
                                                             </tr>

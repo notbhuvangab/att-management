@@ -13,6 +13,17 @@ a:focus {
   text-decoration: none;
 }
 
+.navbar-custom {
+  background: #933993 !important;
+}
+
+.header img {
+  float:left;
+  padding-left: 25px;
+  width: 65px;
+  height: 40px;
+}
+
 .hidden {
   display: none;
 }

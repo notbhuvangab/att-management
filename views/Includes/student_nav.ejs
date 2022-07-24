@@ -2,10 +2,13 @@
 
     <div id="wrapper">
 
-        <aside id="sidebar-wrapper">
+        <aside id="sidebar-wrapper" class="navbar-custom">
 
             <div class="sidebar-brand">
-                <h2>CMS VITS</h2>
+                <div class = "header">
+                    <img height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Vignan_logo.png/1200px-Vignan_logo.png" alt="image">
+                    <h2>CMS VITS</h2>
+                </div>
             </div>
 
             <ul class="sidebar-nav">
@@ -24,7 +27,7 @@
                    <%} %>">
                     <a href="/student/selectAttendance"><i class="fa fa-calendar-check"></i>Attendance</a>
                 </li>
-                <li class="<% if (page_name === 'timetable') { %>
+                <!-- <li class="<% if (page_name === 'timetable') { %>
                     active
                    <%} %>">
                     <a href="/student/timetable"><i class="fa fa-calendar"></i>TimeTable</a>
@@ -38,7 +41,7 @@
                     active
                    <%} %>">
                     <a href="/student/fee-history"><i class="fa fa-credit-card"></i>Fee History</a>
-                </li>
+                </li> -->
                 <hr>
                 <li>
                     <a href="#"><i class="fa fa-cog"></i>Settings</a>
@@ -50,7 +53,7 @@
         </aside>
 
         <div id="navbar-wrapper" style="position: fixed;">
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse navbar-custom">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
